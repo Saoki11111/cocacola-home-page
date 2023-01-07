@@ -42,8 +42,8 @@ body {
 
 .product-1-box {
   position: absolute;
-  top: 70%;
-  left: 33%;
+  top: 320px;
+  left: 360px;
   padding: 0 30px 30px;
 }
 
@@ -59,12 +59,15 @@ body {
 
 .product-2 {
   padding: 110px 0 70px;
+  position: relative;
+  min-width: 1000px;
 }
 
 .product-2-box {
   margin: 0 auto 0;
   position: relative;
-  width: 1000px;
+  min-width: 1000px;
+  width: 1395px;
 }
 
 .product-2-heading {
@@ -90,12 +93,12 @@ body {
 }
 
 .product-2-item {
-  max-width: 55%;
+  max-width: 850px;
   position: absolute;
-  top: 65%;
-  right: 0%;
+  top: 260px;
+  right: -18px;
 }
 
 .product-2-item img {
-  width: 850px;
+  width: 100%;
 }
