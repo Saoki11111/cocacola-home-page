@@ -148,3 +148,19 @@ body {
 .product-3 {
   padding: 240px 0 0;
 }
+
+.product-3-item-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto 0;
+}
+
+.product-3-item-image {
+  width: 33%;
+  margin: 20px 0 0 auto;
+}
+
+.product-3-item-image img {
+  width: 354px;
+}
